@@ -3,7 +3,7 @@ body {
     margin: 0px;
     padding: 0px;
     /* background-color: #95a5a6; */
-    background-image: url('../images/backImage3.jpg');
+    background-image: url('../images/backImage1.jpg');
     
     background-attachment: scroll;
     background-size: cover;
@@ -177,18 +177,20 @@ a {
 }
 
 .events_box {
-    width: 85%;
+    width: 300px;
     height: auto;
-    padding: 30px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #E91E63;
     position: relative;
     display: flex;
     top:80px;
     align-self: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
 }
 
 .events_box h3{
@@ -196,10 +198,10 @@ a {
     font-size: 1.5em;
     margin-top: 20px;
     text-align: center;
-    color: #34495e;
+    color: #fff;
 }
 .events_box hr {
-    background-color: #809cb8;
+    background-color: #fff;
     width: 100%;
     margin-top: -6px;
 }
