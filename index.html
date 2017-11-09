@@ -4,7 +4,7 @@
 <head>
   <title>devncode | it's about developers and coding.</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
   <link href="css/style.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 </head>
@@ -39,70 +39,12 @@
       </div>
       <div class="section">
         <div class="text">Local Communities</div>
-        <!-- <div class="community">
-          <a href="https://www.facebook.com/groups/karachijs/?ref=br_rs" _target="blank">
-            Karachi.js
-          </a>
-        </div>
-        <div class="community">
-          <a href="https://www.facebook.com/groups/pakistanjs/?ref=br_rs" _target="blank">
-            Pakistan.js
-          </a>
-        </div> -->
-        <div class="community">
-          <a href="https://www.facebook.com/ngPakistan/?ref=br_rs" _target="blank">
-            Angular Pakistan
-          </a>
-        </div>
-        <!-- <div class="community">
-          <a href="https://www.facebook.com/groups/1490780931218751/?ref=group_browse_new" _target="blank">
-            Ionic Framework Pakistan
-          </a>
-        </div> -->
-        <div class="community">
-          <a href="https://www.facebook.com/groups/reactnativecommunitykarachi/?ref=br_rs" _target="blank">
-            React Native Community - Karachi
-          </a>
-        </div>
-        <div class="community">
-          <a href="https://www.facebook.com/groups/154030665185499" _target="blank">
-            Vue Pakistan
-          </a>
-        </div>
-        <div class="community">
-          <a href="https://www.facebook.com/groups/535900993285652/?ref=group_browse_new" _target="blank">
-            Swift Pakistan
-          </a>
-        </div>
-        <div class="community">
-          <a href="https://www.facebook.com/groups/free.code.camp.karachi/?ref=group_browse_new" _target="blank">
-            freeCodeCamp Karachi
-          </a>
-        </div>
-        <div class="community">
-          <a href="https://www.facebook.com/groups/DevCKarachi/?ref=group_browse_new" _target="blank">
-            Facebook Developer Circle: Karachi
-          </a>
-        </div>
-        <div class="community">
-          <a href="https://www.facebook.com/GDGKolachi/?ref=br_rs" _target="blank">
-            GDG Kolachi
-          </a>
-        </div>
-        <div class="community">
-          <a href="https://www.facebook.com/groups/332153423853059/?ref=br_rs" _target="blank">
-            Tech Geeks Pakistan
-          </a>
-        </div>
-        <div class="community">
-          <a href="https://www.facebook.com/groups/1440719419338122/?ref=group_browse_new" _target="blank">
-            Upwork Karachi
-          </a>
-        </div>
-        <div class="community">
-          <a href="https://www.facebook.com/FiverrPK/?ref=br_rs" _target="blank">
-            Fiverr Pakistan
-          </a>
+        <div id="localCommunities">
+          <div class="community" v-for="localCommunity in localCommunities">
+            <a :href="localCommunity.link" _target="system">
+              {{localCommunity.name}}
+            </a>
+          </div>
         </div>
       </div>
       <div class="section">
@@ -337,6 +279,8 @@
       </span>
     </div>
   </div>
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
   <script>
     (function (i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
@@ -346,6 +290,53 @@
     })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
     ga('create', 'UA-105786822-1', 'auto');
     ga('send', 'pageview');
+    var app = new Vue({
+      el: '#localCommunities',
+      data: {
+        localCommunities: [
+          {
+            name: 'Angular Pakistan',
+            link: 'https://www.facebook.com/ngPakistan/?ref=br_rs'
+          },
+          {
+            name: 'React Native Community - Karachi',
+            link: 'https://www.facebook.com/groups/reactnativecommunitykarachi/?ref=br_rs'
+          },
+          {
+            name: 'Vue Pakistan',
+            link: 'https://www.facebook.com/groups/154030665185499'
+          },
+          {
+            name: 'Swift Pakistan',
+            link: 'https://www.facebook.com/groups/535900993285652/?ref=group_browse_new'
+          },
+          {
+            name: 'freeCodeCamp Karachi',
+            link: 'https://www.facebook.com/groups/free.code.camp.karachi/?ref=group_browse_new'
+          },
+          {
+            name: 'Facebook Developer Circle: Karachi',
+            link: 'https://www.facebook.com/groups/DevCKarachi/?ref=group_browse_new'
+          },
+          {
+            name: 'GDG Kolachi',
+            link: 'https://www.facebook.com/GDGKolachi/?ref=br_rs'
+          },
+          {
+            name: 'Tech Geeks Pakistan',
+            link: 'https://www.facebook.com/groups/332153423853059/?ref=br_rs'
+          },
+          {
+            name: 'Upwork Karachi',
+            link: 'https://www.facebook.com/groups/1440719419338122/?ref=group_browse_new'
+          },
+          {
+            name: 'Fiverr Pakistan',
+            link: 'https://www.facebook.com/FiverrPK/?ref=br_rs'
+          }
+        ]
+      }
+    })
   </script>
 </body>
 
