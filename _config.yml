@@ -1,0 +1,65 @@
+url: devncode.tech
+baseurl: /
+
+# Site settings
+title: devncode | we foster other communities
+email: devncode17@gmail.com
+description: "devncode is a platform for fierce minds to share their ideas with others, where you can openly speak about your failures. It’s a platform where you will find all CRAZY AND INSANE programmers and technophiles around you."
+
+
+# Team names, titles and social links
+people:
+- name: Muhammad Kamran
+  pic: 1
+  position: Founder
+  social:
+    - title: twitter
+      url: twitter.com/smkamranqadri
+    - title: facebook
+      url: facebook.com/devkamran
+    - title: stack-overflow
+      url: stackoverflow.com/users/3159278/muhammad-kamran
+
+- name: Tehseen Ahmed
+  pic: 2
+  position: Vice President
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Muhammad Usman Farooq
+  pic: 3
+  position: Public Relation Officer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: #
+  - title: facebook
+    url: facebook.com/devncode17
+  - title: stack-overflow
+    url: #
+  - title: bitbucket 
+    url: #
+  - title: github
+    url: #
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Offie 94, 7th Floor, Farid Chamber
+  - line: Abdullah Haroon Road, Saddar, Karachi, Pakistan
+
+# Build settings
+markdown: kramdown
+permalink: pretty
