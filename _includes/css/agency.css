@@ -10,6 +10,9 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
+#title-font{
+    font-family: "Exo", 'Times New Roman', Times, serif !important;
+}
 .text-muted {
     color: #{{ site.data.template.color.muted }};
 }
