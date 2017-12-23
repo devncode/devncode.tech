@@ -17,29 +17,29 @@ people:
       url: twitter.com/smkamranqadri
     - title: facebook
       url: facebook.com/devkamran
-    - title: stack-overflow
-      url: stackoverflow.com/users/3159278/muhammad-kamran
+    - title: linkedin
+      url: https://www.linkedin.com/in/muhammad-kamran-qadri-aa720421/
 
 - name: Tehseen Ahmed
   pic: 2
   position: Vice President
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/TehseenSiddiq
     - title: facebook
-      url: #
+      url: https://www.facebook.com/tehseen.siddiq
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/tehseensiddiq/
 
 - name: Muhammad Usman Farooq
   pic: 3
   position: Public Relation Officer
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
+    - title: linkedin
+      url: https://www.linkedin.com/in/munarausmanfarooq/
+    - title: github
+      url: https://github.com/usmanmunara
+    - title: personal
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -48,10 +48,10 @@ social:
     url: #
   - title: facebook
     url: facebook.com/devncode17
-  - title: stack-overflow
-    url: #
-  - title: bitbucket 
-    url: #
+  - title: youtube
+    url: https://www.youtube.com/channel/UC0_WFaOYjFrZH2zxwI4BZOQ/videos
+  - title: medium 
+    url: https://medium.com/devncode
   - title: github
     url: #
 
