@@ -66,6 +66,8 @@ events:
   class: "timeline-inverted"
   heading: "devncode meetup I: React Native & Redux"
   description: "This event marked the staring of devncode. Our very first event in collaboration with Facebook Developer Circle - Karachi had huge success. Catering the latest and the most popular Javascript framework, React, we introduced React Native and Redux. "
+
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
