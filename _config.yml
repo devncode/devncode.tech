@@ -51,7 +51,7 @@ events:
 
 - date: "4th November 2017"
   pic: 2
-  class: "invert"
+  class: "timeline-inverted"
   heading: "devncode meetup III: IOS & Swift"
   description: "In collaboration with 10Pearls University, this meetup acted as a support for Swift Pakistan. Speakers from Venture Dive, Careem, and other top-notch companies covered basic swift concepts like functional programming in swift to complex concepts like Core Data."
 
