@@ -55,6 +55,17 @@ events:
   heading: "devncode meetup III: IOS & Swift"
   description: "In collaboration with 10Pearls University, this meetup acted as a support for Swift Pakistan. Speakers from Venture Dive, Careem, and other top-notch companies covered basic swift concepts like functional programming in swift to complex concepts like Core Data."
 
+- date: "4th October 2017"
+  pic: 3
+  class: ""
+  heading: "devncode meetup II: Server Side programming in Javascript"
+  description: "In collaboration with Chainak, we aimed to introduce four new speakers in this event. The event's agenda was to introduce begginers with Node.js and Express.js and let some professionals learn about applications like Socket Chat. "
+
+-date: "4th October 2017"
+  pic: 4
+  class: "timeline-inverted"
+  heading: "devncode meetup I: React Native & Redux"
+  description: "This event marked the staring of devncode. Our very first event in collaboration with Facebook Developer Circle - Karachi had huge success. Catering the latest and the most popular Javascript framework, React, we introduced React Native and Redux. "
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
