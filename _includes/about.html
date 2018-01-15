@@ -12,7 +12,7 @@
                     <ul class="timeline">
                         {% for event in site.events %}
                         <!-- %li{ event.class == "invert" ? {class="timeline-inverted"} : {}} -->
-                        %li{:class => "#{'timeline-inverted' if event.class == 'invert'}"}
+                        %li{:class => "#{'timeline-inverted' if {{event.class}} == 'invert'}"}
                                 <div class="timeline-image">
                                     <img class="img-circle img-responsive" src="img/about/{{ event.pic }}.jpg" alt="Event Poster">
                                 </div>
