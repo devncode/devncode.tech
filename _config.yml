@@ -46,10 +46,12 @@ events:
 - date: "9th December 2017"
   pic: 1
   heading: "devncode meetup IV: Artifical Intelligence"
+  class: ""
   description: "Leaving no room for people to stand, this meetup was engaging for the audience as we saw a minimal decrease in the number of attendees after snacks, which is quite rare. The diversity of the tech talks included everything ranging from AI myth busters to the way data is useful in our daily lives"
 
 - date: "4th November 2017"
   pic: 2
+  class: "invert"
   heading: "devncode meetup III: IOS & Swift"
   description: "In collaboration with 10Pearls University, this meetup acted as a support for Swift Pakistan. Speakers from Venture Dive, Careem, and other top-notch companies covered basic swift concepts like functional programming in swift to complex concepts like Core Data."
 
