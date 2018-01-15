@@ -61,7 +61,7 @@ events:
   heading: "devncode meetup II: Server Side programming in Javascript"
   description: "In collaboration with Chainak, we aimed to introduce four new speakers in this event. The event's agenda was to introduce begginers with Node.js and Express.js and let some professionals learn about applications like Socket Chat. "
 
-- date: "4th October 2017"
+- date: "26th August 2017"
   pic: 4
   class: "timeline-inverted"
   heading: "devncode meetup I: React Native & Redux"
