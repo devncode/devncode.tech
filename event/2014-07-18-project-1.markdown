@@ -1,0 +1,10 @@
+<!-- ---
+layout: default
+date: "26th August 2017"
+modal-id: 1
+pic: 1
+heading: "devncode meetup IV: Artifical Intelligence"
+class: ""
+description: "Leaving no room for people to stand, this meetup was engaging for the audience as we saw a minimal decrease in the number of attendees after snacks, which is quite rare. The diversity of the tech talks included everything ranging from AI myth busters to the way data is useful in our daily lives"
+
+--- -->

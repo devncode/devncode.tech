@@ -44,6 +44,8 @@ people:
 #Events
 events:
 - date: "9th December 2017"
+  modal-id: 1
+  link: "https://www.facebook.com/events/349884418755542/"
   pic: 1
   heading: "devncode meetup IV: Artifical Intelligence"
   class: ""
@@ -51,18 +53,44 @@ events:
 
 - date: "4th November 2017"
   pic: 2
+  link: "https://www.facebook.com/events/1998879887023825/"
+  modal-id: 2
   class: "timeline-inverted"
   heading: "devncode meetup III: IOS & Swift"
   description: "In collaboration with 10Pearls University, this meetup acted as a support for Swift Pakistan. Speakers from Venture Dive, Careem, and other top-notch companies covered basic swift concepts like functional programming in swift to complex concepts like Core Data."
+  talk:
+    - speaker: "Walid Khan"
+      topic: " Intoduction to Swift 4"
+      intro: "Senior Software Developer at 10Pearls. Half a dozen year experience in developing Mobile Apps for
+            iOS and Android. Madly in love with Swift."
+      slides: "https://drive.google.com/open?id=1Wdt2O_dDWt9F6wdHsffXZJH6cLoixNtm"
+      videos: " https://www.facebook.com/devncode17/videos/145012429461680/"
+      img: 1
+    - speaker: "Maroof Khan"
+      topic: "Introduction to functional programming in swift"
+      intro: "Currently an iOS engineer @ Careem. Have been working on iOS for 2+ years now."
+      slides: "https://drive.google.com/open?id=1ibzb234iX8BduJg6LDp_tMPCb3_iMwNj"
+      videos: "https://www.facebook.com/devncode17/videos/145022489460674/"
+      img: 2
+    - speaker: "Muhammad Abdul Subhan"
+      topic: "Introduction to CoreGraphics and CoreAnimation"
+      intro: "Software Engineer at VentureDive Working on iOS from past 3.5 years"
+      slides: "https://drive.google.com/open?id=1e3e5OVNQ5SGtXLMrjTtcj4xKD2lJpfBj"
+      videos: "https://www.facebook.com/devncode17/videos/145039856125604/"
+      img: 3
 
 - date: "4th October 2017"
   pic: 3
+  link: "https://www.facebook.com/events/375886049515592/"
   class: ""
+  modal-id: 3
   heading: "devncode meetup II: Server Side programming in Javascript"
   description: "In collaboration with Chainak, we aimed to introduce four new speakers in this event. The event's agenda was to introduce begginers with Node.js and Express.js and let some professionals learn about applications like Socket Chat. "
 
 - date: "26th August 2017"
   pic: 4
+  link: "https://www.facebook.com/events/835784043251975/"
+  modal-id: 4
   class: "timeline-inverted"
   heading: "devncode meetup I: React Native & Redux"
   description: "This event marked the staring of devncode. Our very first event in collaboration with Facebook Developer Circle - Karachi had huge success. Catering the latest and the most popular Javascript framework, React, we introduced React Native and Redux. "

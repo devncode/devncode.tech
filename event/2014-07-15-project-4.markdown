@@ -1,0 +1,11 @@
+<!-- ---
+layout: default
+img: 4
+date: "26th August 2017"
+img: 4
+modal-id: 4
+class: "timeline-inverted"
+heading: "devncode meetup I: React Native & Redux"
+description: "This event marked the staring of devncode. Our very first event in collaboration with Facebook Developer Circle - Karachi had huge success. Catering the latest and the most popular Javascript framework, React, we introduced React Native and Redux. "
+
+--- -->
