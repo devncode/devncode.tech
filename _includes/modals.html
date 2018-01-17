@@ -1,6 +1,6 @@
  <!-- Portfolio Modals -->
- {% for post in site.posts %}
-    <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+ {% for event in site.events %}
+    <div class="portfolio-modal modal fade" id="portfolioModal{{ event.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -12,28 +12,51 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
+                            <h2>{{ event.heading }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
+                            <img src="img/about/{{ event.posterpic }}.jpg" class="img-responsive img-centered" alt="event">
+                            <p>{{ event.description }}</p>
+                            <h1>Speakers</h1>
+                            <hr class="star-primary">
+                            <ul class="speakerlist">
+                                    {% for speaker in event.talk %}
+                                    <li>
+                                        <div class="speaker-image">
+                                                <img src="img/speakers/{{ speaker.img }}.jpg" alt="Event Poster">
+                                        </div>
+                                        <h4>{{speaker.speaker}}</h4>
+                                        <hr class="star-primary">
+                                        <h6>{{speaker.intro}}</h6>
+                                        <p>Topic: <strong>{{speaker.topic}}</strong></p>
+                                        <ul class="list-inline item-details">
+                                                <li>
+                                                        <strong><a target="_blank" href={{speaker.videos}}>Talk</a>
+                                                        </strong>
+                                                </li>
+                                                <li>
+                                                        <strong><a target="_blank" href={{speaker.slides}}>Slides</a>
+                                                        </strong>
+                                                </li>
+
+                                        </ul>
+                                            
+                                    </li>
+                                    {% endfor %}
+                            </ul>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                    </strong>
+                                <li>Event Link
+                                        <strong><a href={{event.link}}><i class="fa fa-facebook"></i></a>
+                                        </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                    <strong>{{ event.date}}</a>
                                     </strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
     </div>
