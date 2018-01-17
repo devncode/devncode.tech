@@ -40,6 +40,10 @@ body {
     height: 10em !important;
 }
 
+#tenpearls-logo{
+    height: 9em !important;
+}
+
 .speakerlist > li {
     /* margin: 20px; */
     width: 40%;
