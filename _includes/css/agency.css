@@ -16,9 +16,32 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.carousel-div{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+.carousel-control{
+    background: none !important;
+}
+.carousel-left-arrow{
+    color: black;
+    margin: 100px 0em;
+    margin-right: 100%;
+}
+
+.carousel-right-arrow{
+    color: black;
+    margin: 100px 0em;
+    margin-left: 100%;
+}
+
+.img-contributors{
+    height: 10em !important;
+}
 
 .speakerlist > li {
-    margin: 20px;
+    /* margin: 20px; */
     width: 40%;
     list-style: none;
     /* flex: 0 0 100%; */

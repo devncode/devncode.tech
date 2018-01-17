@@ -14,7 +14,7 @@
                         <div class="modal-body">
                             <h2>{{ event.heading }}</h2>
                             <hr class="star-primary">
-                            <img src="img/about/{{ event.pic }}.jpg" class="img-responsive img-centered" alt="event">
+                            <img src="img/about/{{ event.posterpic }}.jpg" class="img-responsive img-centered" alt="event">
                             <p>{{ event.description }}</p>
                             <h1>Speakers</h1>
                             <hr class="star-primary">
@@ -22,7 +22,7 @@
                                     {% for speaker in event.talk %}
                                     <li>
                                         <div class="speaker-image">
-                                                <img src="img/team/{{ speaker.img }}.jpg" alt="Event Poster">
+                                                <img src="img/speakers/{{ speaker.img }}.jpg" alt="Event Poster">
                                         </div>
                                         <h4>{{speaker.speaker}}</h4>
                                         <hr class="star-primary">

@@ -47,15 +47,58 @@ events:
   modal-id: 1
   link: "https://www.facebook.com/events/349884418755542/"
   pic: 1
+  posterpic: 5
   heading: "devncode meetup IV: Artifical Intelligence"
   class: ""
   description: "Leaving no room for people to stand, this meetup was engaging for the audience as we saw a minimal decrease in the number of attendees after snacks, which is quite rare. The diversity of the tech talks included everything ranging from AI myth busters to the way data is useful in our daily lives"
+  talk:
+    - speaker: "Hamza Farooq, Walmart"
+      topic: "A Day in the Life of a Data Scientist"
+      intro: "Hamza has utilized data analytics and big data
+              platform to solve real world problems, deliver meaningful
+              results and accomplish critical business objectives for almost a decade. He has worked across three continents, stationed in seven countries across APAC, Middle East,
+              Africa and North America.
+              Hamza currently works ar Walmart as a Data Scientist to develop multiple analytical tools at scale."
+      videos: " https://www.facebook.com/devncode17/videos/153580431938213/"
+      img: 16
+    - speaker: "Ahsan Ayaz"
+      topic: "Journey of a Web Developer towards AI"
+      intro: "Ahsan is a Senior Full Stack Engineer at Modus Create. He has built complex Web Applications & Hybrid Mobile Applications using AngularJS, Angular, Ionic & Web Technologies. He's one of the organizers of Angular Pakistan & Co-founder of IOMechs."
+      slides: "http://slides.com/ahsanayaz/journey-towards-ai"
+      videos: "https://www.facebook.com/devncode17/videos/153599661936290/"
+      img: 15
+    - speaker: "Zia Khan"
+      topic: "Why you should go for AI?"
+      intro: "Expert Full Stack Web, Mobile, Cloud Native and AI Engineer"
+      slides: "https://drive.google.com/file/d/1yY3EJsgNWypvsi9bJCIYokYtfVOGm_oz/view"
+      videos: "https://www.facebook.com/devncode17/videos/153589171937339/"
+      img: 14
+    - speaker: "Anas Ayubi"
+      topic: "Is this AI Hype real?"
+      intro: "Anas Ayubi is an artificial intelligence enthusiast doing bachelors in computer systems at NEDUET. Anas Ayubi is a big advocate of the fourth revolution and hopes to achieve it through community building of Artificial intelligence enthusiasts in Pakistan. He accomplishes this vision by running Pakistan.ai and by leading the AI Club initiative at NEDUET."
+      slides: "https://drive.google.com/file/d/1dzfynx6M7lS39jErDLuKVrRKS2UOU6kX/view"
+      videos: "https://www.facebook.com/devncode17/videos/153620108600912/"
+      img: 13
+    - speaker: "Muhammad Faizan Khan"
+      topic: "Advancement in human computer interactions using deep learning"
+      intro: "He is software developer at 10pearls, aiming to harness AI for challenges such as Natural Language and Vision. He is working on creating systems that could conversate with humans in their own language, which will open doors to more friendly and intelligent customer care."
+      slides: "https://drive.google.com/file/d/1x0_P6eL1qlArZ0dg6o2cJdU04je2apO_/view"
+      videos: "https://www.facebook.com/devncode17/videos/153629571933299/"
+      img: 12
+    - speaker: "Umair Hanif"
+      topic: "Case Studies of Machine Learning"
+      intro: "Junior Data Scientist at Penumbra, Umair has expertise in Twitter API and pipelines various data related tasks for Machine Learning. An active Kaggle user, Umair pipelines data into a Data science product."
+      slides: "https://drive.google.com/file/d/18ClXTzm04EafMXxLiT8egLhw04XfF5X2/view"
+      videos: "https://www.facebook.com/devncode17/videos/153637538599169/"
+      img: 11
+
 
 - date: "4th November 2017"
   pic: 2
   link: "https://www.facebook.com/events/1998879887023825/"
   modal-id: 2
   class: "timeline-inverted"
+  posterpic: 6
   heading: "devncode meetup III: IOS & Swift"
   description: "In collaboration with 10Pearls University, this meetup acted as a support for Swift Pakistan. Speakers from Venture Dive, Careem, and other top-notch companies covered basic swift concepts like functional programming in swift to complex concepts like Core Data."
   talk:
@@ -65,35 +108,80 @@ events:
             iOS and Android. Madly in love with Swift."
       slides: "https://drive.google.com/open?id=1Wdt2O_dDWt9F6wdHsffXZJH6cLoixNtm"
       videos: " https://www.facebook.com/devncode17/videos/145012429461680/"
-      img: 1
+      img: 10
     - speaker: "Maroof Khan"
       topic: "Introduction to functional programming in swift"
       intro: "Currently an iOS engineer @ Careem. Have been working on iOS for 2+ years now."
       slides: "https://drive.google.com/open?id=1ibzb234iX8BduJg6LDp_tMPCb3_iMwNj"
       videos: "https://www.facebook.com/devncode17/videos/145022489460674/"
-      img: 2
+      img: 9
     - speaker: "Muhammad Abdul Subhan"
       topic: "Introduction to CoreGraphics and CoreAnimation"
       intro: "Software Engineer at VentureDive Working on iOS from past 3.5 years"
       slides: "https://drive.google.com/open?id=1e3e5OVNQ5SGtXLMrjTtcj4xKD2lJpfBj"
       videos: "https://www.facebook.com/devncode17/videos/145039856125604/"
-      img: 3
+      img: 8
+    - speaker: "Ali Akhter"
+      topic: "Coredata and concurrencies issues in our daily development"
+      intro: "Software Engineer at VentureDive Working on iOS from past 2 years"
+      slides: "https://drive.google.com/open?id=1IVMjmKrKj2MJdSF3EM2S69QxSHSNLMRx"
+      videos: "https://www.facebook.com/devncode17/videos/145053672790889/"
+      img: 7
 
 - date: "4th October 2017"
   pic: 3
+  posterpic: 3
   link: "https://www.facebook.com/events/375886049515592/"
   class: ""
   modal-id: 3
   heading: "devncode meetup II: Server Side programming in Javascript"
   description: "In collaboration with Chainak, we aimed to introduce four new speakers in this event. The event's agenda was to introduce begginers with Node.js and Express.js and let some professionals learn about applications like Socket Chat. "
+  talk:
+    - speaker: "Faheel A. Khan"
+      topic: "Getting Started with Nodejs and Expressjs"
+      intro: "Currently Mean Stack Developer at Ciphar Lab, Passout from UBIT MCS Program."
+      slides: "https://www.dropbox.com/s/t4lwwf27i349ag8/Devncode%7D%20%5BAutosaved%5D.pptx?dl=0"
+      img: 6
+    - speaker: "Saad Abbasi"
+      topic: "Protecting endpoint in Nodejs using JWT"
+      intro: "Currently working at Attribe Solution, Undergraduate in Dawood UET. Full Stack Javascript Developer,
+            Security Enthusiastic"
+      slides: "http://slides.com/saadabbasi/deck-3/fullscreen#/"
+      img: 5
+    - speaker: "Tauqeer Ahmed Shakir"
+      topic: "Sending Email using firebase cloud functions"
+      intro: "Working as Mean Stack Developerat eForte Solution, graduated from UBIT."
+      slides: "http://slides.com/tauqeer_ahmed/deck#/"
+      img: 4
+    - speaker: "Zain Mustafa"
+      topic: "React + Nodejs - Build Socket Chat Application"
+      intro: "Computer Science student from DHA Suffa University, He started his career as a JS Developer in
+            2015 since then working on JS technologies with focus on React and React Native."
+      slides: "https://docs.google.com/presentation/d/1nYUZyByTPWkuRVB3Ih-wi8amvlc_cU1llPXesz5yI0U/edit"
+      img: 3
 
 - date: "26th August 2017"
   pic: 4
   link: "https://www.facebook.com/events/835784043251975/"
   modal-id: 4
+  posterpic: 7
   class: "timeline-inverted"
   heading: "devncode meetup I: React Native & Redux"
   description: "This event marked the staring of devncode. Our very first event in collaboration with Facebook Developer Circle - Karachi had huge success. Catering the latest and the most popular Javascript framework, React, we introduced React Native and Redux. "
+  talk:
+    - speaker: "Ishaq Hassan"
+      topic: "Getting Started with React Native"
+      intro: "Ishaq Hassan is a Full Stack Developer since September 2013. He start learning and developing
+            applications on native Android OS a year ago and now just exploring the glory of React native."
+      slides: "https://docs.google.com/presentation/d/1AVVRtf9duaPHZJkygRUbzMKYV_yF4B_u7lj77FT4_AI/edit#slide=id.p4"
+      img: 1
+    - speaker: "Muhammad Kamran"
+      topic: "What's Redux Anyway?"
+      intro: "Muhammad Kamran is an experienced, enthusiastic and self-motivated developer with a great passion
+            for Javascript/ Typescript, Nodejs, Angular 2, Ionic 2, UI/ UX design, and other techniques by which he can contribute
+            to the community and can make a difference by sharing his learnings."
+      slides: "https://docs.google.com/presentation/d/1HzPfPOjiKe_bXF53QBhUfaUjPa8gDL10V24gM3WYptI/edit?usp=sharing"
+      img: 2
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
