@@ -41,10 +41,63 @@ people:
       url: https://github.com/usmanmunara
     - title: user
       url: https://usmanmunara.github.io/     
+- name: Mustafa Fazel
+  pic: 4
+  position: Coordinator
+  social:
+    - title: linkedin
+      url: ''
+    - title: facebook
+      url: ''
+    - title: user
+      url: ''
+- name: Sharjeel Ahmed
+  pic: 5
+  position: Graphics Designer
+  social:
+    - title: linkedin
+      url: ''
+    - title: behance
+      url: ''
+    - title: user
+      url: ''
 #Events
 events:
-- date: "9th December 2017"
+- date: "12th May 2018"
   modal-id: 1
+  link: "https://web.facebook.com/events/222728191791356/"
+  pic: 8
+  posterpic: 8
+  heading: "devncode meetup V: Core Javascript"
+  class: "timeline-inverted"
+  description: "Once again after a long period we are back with our signature meetup, this time is about Javascript so hold your breath we are going to touch deep the core javascript."
+  talk:
+    - speaker: "Ahsan Ayaz"
+      topic: "Async Await - Wait wut?"
+      intro: "Ahsan Ayaz is a Software Architect @ Modus Create. He is a speaker, blogger, an active open source contributor and is involved in community meetups by devncode, ngPakistan and NSKarachi."
+      videos: ""
+      img: 15
+    - speaker: "Taley'a Mirza"
+      topic: "What's new in JavaScript? ES6, ES7 and ES8 features"
+      intro: "I'm a JavaScript Developer,  Blogger and Speaker. I love coding, mentoring and solving challenges that life brought up to me. I want to deliver all my knowledge to the community whatever I learnt myself or from the community."
+      slides: ""
+      videos: ""
+      img: 17
+    - speaker: "Mohammad Kashif Sulaiman"
+      topic: "JavaScript Closures"
+      intro: "Fullstack Developer,  Founder of Team Expertizo, Trainer at Saylani Mass Training."
+      slides: ""
+      videos: ""
+      img: 18
+    - speaker: "Noman Yaqoob"
+      topic: "Event Loops In JavaScript"
+      intro: "Noman Yaqoob is a Software Developer @ Tenpearls, Blogger, Trainer and Geek of JavaScript."
+      slides: ""
+      videos: ""
+      img: 19
+
+- date: "9th December 2017"
+  modal-id: 2
   link: "https://www.facebook.com/events/349884418755542/"
   pic: 1
   posterpic: 5
@@ -96,7 +149,7 @@ events:
 - date: "4th November 2017"
   pic: 2
   link: "https://www.facebook.com/events/1998879887023825/"
-  modal-id: 2
+  modal-id: 3
   class: "timeline-inverted"
   posterpic: 6
   heading: "devncode meetup III: IOS & Swift"
@@ -133,7 +186,7 @@ events:
   posterpic: 3
   link: "https://www.facebook.com/events/375886049515592/"
   class: ""
-  modal-id: 3
+  modal-id: 4
   heading: "devncode meetup II: Server Side programming in Javascript"
   description: "In collaboration with Chainak, we aimed to introduce four new speakers in this event. The event's agenda was to introduce begginers with Node.js and Express.js and let some professionals learn about applications like Socket Chat. "
   talk:
@@ -163,7 +216,7 @@ events:
 - date: "26th August 2017"
   pic: 4
   link: "https://www.facebook.com/events/835784043251975/"
-  modal-id: 4
+  modal-id: 5
   posterpic: 7
   class: "timeline-inverted"
   heading: "devncode meetup I: React Native & Redux"
