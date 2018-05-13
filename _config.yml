@@ -72,29 +72,30 @@ events:
   class: "timeline-inverted"
   description: "Once again after a long period we are back with our signature meetup, this time is about Javascript so hold your breath we are going to touch deep the core javascript."
   talk:
-    - speaker: "Ahsan Ayaz"
-      topic: "Async Await - Wait wut?"
-      intro: "Ahsan Ayaz is a Software Architect @ Modus Create. He is a speaker, blogger, an active open source contributor and is involved in community meetups by devncode, ngPakistan and NSKarachi."
-      videos: ""
-      img: 15
     - speaker: "Taley'a Mirza"
       topic: "What's new in JavaScript? ES6, ES7 and ES8 features"
       intro: "I'm a JavaScript Developer,  Blogger and Speaker. I love coding, mentoring and solving challenges that life brought up to me. I want to deliver all my knowledge to the community whatever I learnt myself or from the community."
-      slides: ""
-      videos: ""
+      slides: "https://docs.google.com/presentation/d/1Prab2EujL-p8wQavUmdisiNfRgy-yIbXSZcFWxBi-Yw/edit?usp=sharing"
+      videos: "https://www.facebook.com/smkamranqadri/videos/2465385446808583/"
       img: 17
-    - speaker: "Mohammad Kashif Sulaiman"
-      topic: "JavaScript Closures"
-      intro: "Fullstack Developer,  Founder of Team Expertizo, Trainer at Saylani Mass Training."
-      slides: ""
-      videos: ""
-      img: 18
+    - speaker: "Ahsan Ayaz"
+      topic: "Async Await - Wait wut?"
+      intro: "Ahsan Ayaz is a Software Architect @ Modus Create. He is a speaker, blogger, an active open source contributor and is involved in community meetups by devncode, ngPakistan and NSKarachi."
+      slides: "https://slides.com/ahsanayaz/async-await-wait-wut/live#/"
+      videos: "https://www.facebook.com/smkamranqadri/videos/2465424843471310/"
+      img: 15
     - speaker: "Noman Yaqoob"
       topic: "Event Loops In JavaScript"
       intro: "Noman Yaqoob is a Software Developer @ Tenpearls, Blogger, Trainer and Geek of JavaScript."
-      slides: ""
-      videos: ""
+      slides: "https://drive.google.com/file/d/11LJI0sYolP3mOKvHAVyy5qX5rMjDmoI-/view?usp=sharing"
+      videos: "https://www.facebook.com/smkamranqadri/videos/2465465920133869/"
       img: 19
+    - speaker: "Mohammad Kashif Sulaiman"
+      topic: "JavaScript Closures"
+      intro: "Fullstack Developer,  Founder of Team Expertizo, Trainer at Saylani Mass Training."
+      slides: "https://drive.google.com/file/d/1HEM-2h77lxEdXuCq8COpFeGeJbdDDOPQ/view?usp=sharing"
+      videos: "https://www.facebook.com/smkamranqadri/videos/2465500243463770/"
+      img: 18
 
 - date: "9th December 2017"
   modal-id: 2
