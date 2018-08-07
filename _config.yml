@@ -4,7 +4,7 @@ baseurl:
 # Site settings
 title: devncode | we foster other communities
 email: devncode17@gmail.com
-description: "devncode is a platform for fierce minds to share their ideas with others, where you can openly speak about your failures. It’s a platform where you will find all CRAZY AND INSANE programmers and technophiles around you."
+description: "Devncode, A team of developers and tech enthusiasts based in Karachi, Pakistan. \n Providing solutions to different communities by bringing experienced and technical speakers who haven’t speak before but are professionals. \n We be the bridge between different communities, startups, software houses, and universities to facilitate them with venue, volunteers (technical and non-technical), sponsors and a vast audience for their event."
 
 
 # Team names, titles and social links
@@ -41,6 +41,7 @@ people:
       url: 'https://github.com/mustafa-fazal-hussain'
     - title: facebook
       url: 'https://www.facebook.com/mustafa.fazalhussain'
+
 - name: Taimoor Saeed
   pic: 7
   position: Coordinator
@@ -51,6 +52,7 @@ people:
       url: 'https://twitter.com/taimoorsd'
     - title: facebook
       url: 'https://www.facebook.com/tamur.saeed'
+
 - name: Sharjeel Ahmed
   pic: 5
   position: Graphics Designer
@@ -61,6 +63,7 @@ people:
       url: 'https://www.behance.net/sharjeelahmed07'
     - title: facebook
       url: 'https://www.facebook.com/sharjeel.ahmed07'
+
 #Events
 events:
 - date: "12th May 2018"
@@ -253,8 +256,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Offie 94, 7th Floor, Farid Chamber
-  - line: Abdullah Haroon Road, Saddar, Karachi, Pakistan
+  - line: Office 1502, 15th Floor, Ceasar's Tower,
+  - line: Shahrah-e-faisal, Karachi, Pakistan
 
 # Build settings
 markdown: kramdown
