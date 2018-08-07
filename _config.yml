@@ -41,6 +41,16 @@ people:
       url: 'https://github.com/mustafa-fazal-hussain'
     - title: facebook
       url: 'https://www.facebook.com/mustafa.fazalhussain'
+- name: Taimoor Saeed
+  pic: 7
+  position: Coordinator
+  social:
+    - title: linkedin
+      url: 'https://www.linkedin.com/in/taimoorsaeed/'
+    - title: twitter
+      url: 'https://twitter.com/taimoorsd'
+    - title: facebook
+      url: 'https://www.facebook.com/tamur.saeed'
 - name: Sharjeel Ahmed
   pic: 5
   position: Graphics Designer
@@ -51,16 +61,6 @@ people:
       url: 'https://www.behance.net/sharjeelahmed07'
     - title: facebook
       url: 'https://www.facebook.com/sharjeel.ahmed07'
-- name: Mohammad Talha Khan
-  pic: 6
-  position: Social Media Marketer
-  social:
-    - title: linkedin
-      url: 'https://www.linkedin.com/in/muhammad-talha-khan-590723135/'
-    - title: twitter
-      url: 'https://twitter.com/mta1hakhan'
-    - title: facebook
-      url: 'https://www.facebook.com/m.ta1ha.khan'
 #Events
 events:
 - date: "12th May 2018"
