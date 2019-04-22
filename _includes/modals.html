@@ -29,25 +29,30 @@
                                         <h6>{{speaker.intro}}</h6>
                                         <p>Topic: <strong>{{speaker.topic}}</strong></p>
                                         <ul class="list-inline item-details">
+						                    {% if speaker.videos != "" %}
                                                 <li>
                                                         <strong><a target="_blank" href={{speaker.videos}}>Talk</a>
                                                         </strong>
                                                 </li>
+						                    {% endif %}
+						                    {% if speaker.slides != "" %}
                                                 <li>
                                                         <strong><a target="_blank" href={{speaker.slides}}>Slides</a>
                                                         </strong>
                                                 </li>
-
+						                    {% endif %}
                                         </ul>
                                             
                                     </li>
                                     {% endfor %}
                             </ul>
                             <ul class="list-inline item-details">
+                                {% if event.link != "" %}
                                 <li>Event Link
                                         <strong><a href={{event.link}}><i class="fa fa-facebook"></i></a>
                                         </strong>
                                 </li>
+                                {% endif %}
                                 <li>Date:
                                     <strong>{{ event.date}}</a>
                                     </strong>
