@@ -2,7 +2,7 @@ url: devncode.tech
 baseurl:
 
 # Site settings
-title: devncode | we foster other communities
+title: devncode | we connect developers to community.
 email: devncode17@gmail.com
 description: "Devncode, A team of developers and tech enthusiasts based in Karachi, Pakistan. \n Providing solutions to different communities by bringing experienced and technical speakers who haven’t speak before but are professionals. \n We be the bridge between different communities, startups, software houses, and universities to facilitate them with venue, volunteers (technical and non-technical), sponsors and a vast audience for their event."
 
@@ -65,39 +65,51 @@ people:
 
 #Events
 events:
-  - date: '29th Jun 2019'
+  - date: '12th Oct 2019'
     modal-id: 6
-    link: ''
-    pic: 0
-    posterpic: 0
-    heading: 'Google Cloud Next Extended 19'
+    link: 'https://www.facebook.com/events/919046815119030/'
+    pic: 9
+    posterpic: 9
+    heading: 'Hacktoberfest 2019 | Let's contribute to Open Source'
     class: 'timeline'
-    description: 'Join us for Cloud Next Extended event of this year, where we will bring together cloud enthusiasts and the developer community to be a part of the Next 2019 experience.'
+    description: 'This year again, we'll get together for contributing to the open source projects and celebrate hacktoberfest 2019.
+
+Register Here: https://forms.gle/pfaL5Zwen8rVYR3D8
+
+📝 Agenda
+
+• [3:00] [Introductions] — About devncode by Taimoor Saeed
+
+• [3:15] [Introductions] — About Hacktoberfest by Nawazish Ali
+
+• [03:30] [Talk] — Basics of Git & GitHub! Contribute to open-source by Muhammad Kamran
+
+• [04:00] [Workshop] — Contributing to open source projects with the help of mentors by devncode
+
+• [05:15] [Demo] — 3 to 5-minute demos by anyone interested in sharing their open source projects.
+
+• [05:30] [Closing and Group Photo]
+
+• [05:45] [Refreshments] — Hi-Tea are on us!'
     talk:
-      - speaker: 'TBA'
-        topic: 'Announcement from Cloud Next’19'
+      - speaker: 'Taimoor Saeed'
+        topic: 'About devncode'
         intro: ''
         slides: ''
         videos: ''
-        img: 0
-      - speaker: 'TBA'
-        topic: 'Workshp: Production Deployment of Angular App on Google Cloud'
+        img: 20
+      - speaker: 'Nawazish Ali'
+        topic: 'About Hacktoberfest'
         intro: ''
         slides: ''
         videos: ''
-        img: 0
-      - speaker: 'TBA'
-        topic: 'Build and Deploy with Cloud Run'
+        img: 21
+      - speaker: 'Muhammad Kamran'
+        topic: 'Basics of Git & GitHub! Contribute to open-source'
         intro: ''
         slides: ''
         videos: ''
-        img: 0
-      - speaker: 'TBA'
-        topic: 'Introduction to Kubernetes'
-        intro: ''
-        slides: ''
-        videos: ''
-        img: 0
+        img: 2
 
   - date: '12th May 2018'
     modal-id: 1
