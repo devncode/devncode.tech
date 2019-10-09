@@ -70,27 +70,29 @@ events:
     link: 'https://www.facebook.com/events/919046815119030/'
     pic: 9
     posterpic: 9
-    heading: 'Hacktoberfest 2019 | Let's contribute to Open Source'
+    heading: "Hacktoberfest 2019 | Let's contribute to Open Source"
     class: 'timeline'
-    description: 'This year again, we'll get together for contributing to the open source projects and celebrate hacktoberfest 2019.
+    short_desc: This year again, we'll get together for contributing to the open source projects and celebrate hacktoberfest 2019.
+    description: |
+      This year again, we'll get together for contributing to the open source projects and celebrate hacktoberfest 2019.
 
-Register Here => https://forms.gle/pfaL5Zwen8rVYR3D8
+      Register Here => https://forms.gle/pfaL5Zwen8rVYR3D8
 
-📝 Agenda
+      📝 Agenda
 
-• [3:00] [Introductions] — About devncode by Taimoor Saeed
+      • [3:00] [Introductions] — About devncode by Taimoor Saeed
 
-• [3:15] [Introductions] — About Hacktoberfest by Nawazish Ali
+      • [3:15] [Introductions] — About Hacktoberfest by Nawazish Ali
 
-• [03:30] [Talk] — Basics of Git & GitHub! Contribute to open-source by Muhammad Kamran
+      • [03:30] [Talk] — Basics of Git & GitHub! Contribute to open-source by Muhammad Kamran
 
-• [04:00] [Workshop] — Contributing to open source projects with the help of mentors by devncode
+      • [04:00] [Workshop] — Contributing to open source projects with the help of mentors by devncode
 
-• [05:15] [Demo] — 3 to 5-minute demos by anyone interested in sharing their open source projects.
+      • [05:15] [Demo] — 3 to 5-minute demos by anyone interested in sharing their open source projects.
 
-• [05:30] [Closing and Group Photo]
+      • [05:30] [Closing and Group Photo]
 
-• [05:45] [Refreshments] — Hi-Tea are on us!'
+      • [05:45] [Refreshments] — Hi-Tea are on us!
     talk:
       - speaker: 'Taimoor Saeed'
         topic: 'About devncode'

@@ -15,7 +15,7 @@
                             <h2>{{ event.heading }}</h2>
                             <hr class="star-primary">
                             <img src="img/about/{{ event.posterpic }}.jpg" class="img-responsive img-centered" alt="event">
-                            <p>{{ event.description }}</p>
+                            <p>{{ event.description | markdownify }}</p>
                             <h1>Speakers</h1>
                             <hr class="star-primary">
                             <ul class="speakerlist">

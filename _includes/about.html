@@ -22,7 +22,12 @@
                                 <h4 class="subheading">{{ event.heading }}</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">{{ event.description }}</p>
+                                {% if event.short_desc == "" %}
+                                    <p class="text-muted">{{ event.description }}</p>
+                                {% endif %}
+                                {% if event.short_desc != "" %}
+                                    <p class="text-muted">{{ event.short_desc }}</p>
+                                {% endif %}
                             </div>
                         </div>
                     </li>
